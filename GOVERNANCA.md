@@ -1,0 +1,17 @@
+# Governança do Repositório
+
+## Regras básicas
+- Proibido commit direto na main (tudo entra por PR).
+
+## Padrão de branches
+- feature/<id>-<resumo>
+- fix/<id>-<resumo>
+- chore/<id>-<resumo>
+
+## DoD do PR (mínimo)
+- Descrição: o que mudou, por quê e como testar.
+- Auto-review: checklist + comentários técnicos no PR.
+
+## Review (critérios)
+- Comentários devem explicar o motivo e sugerir alternativa quando possível.
+- Evitar PR grande: se não revisa em ~10 min, dividir.
